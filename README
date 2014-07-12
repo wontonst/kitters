@@ -1,7 +1,9 @@
 Lightweight PHP MVC framework. This is barebones hackathon stuff (literally made at a hackathon). No BS, very customizable.
 
-## Controller & Routing ##
-You don't do any routing. It's automatic. You go to mywebsite.com/mysubdir it requests the Mysubdir class. First letter capitalized, nothing else capitalized.
+Controller & Routing 
+==================================
+
+Automatic. You go to mywebsite.com/mysubdir it requests the Mysubdir class. First letter capitalized, nothing else capitalized.
 
 Controllers should extend BaseController and must implement get() and post().
 
